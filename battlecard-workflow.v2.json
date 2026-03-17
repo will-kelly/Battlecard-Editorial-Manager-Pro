@@ -1,0 +1,80 @@
+{
+  "workflow_id": "battlecard_concept_to_publish_v2",
+  "stages": [
+    {
+      "id": "01_intake",
+      "name": "Intake and scoping",
+      "outputs": [
+        "concept_brief"
+      ],
+      "exit_criteria": [
+        "Audience defined",
+        "Primary competitor defined",
+        "Use case defined",
+        "Claim boundaries documented"
+      ]
+    },
+    {
+      "id": "02_claims_mapping",
+      "name": "Claims mapping and sourcing",
+      "outputs": [
+        "claims_map",
+        "risk_register"
+      ],
+      "exit_criteria": [
+        "All claims sourced or tagged",
+        "High risk claims flagged"
+      ]
+    },
+    {
+      "id": "03_outline",
+      "name": "Outline development",
+      "outputs": [
+        "battlecard_outline",
+        "talk_track"
+      ],
+      "exit_criteria": [
+        "Sales scannable",
+        "Differentiators clear"
+      ]
+    },
+    {
+      "id": "04_draft",
+      "name": "Drafting v1",
+      "outputs": [
+        "draft_v1"
+      ],
+      "exit_criteria": [
+        "All sections completed",
+        "Placeholders tagged"
+      ]
+    },
+    {
+      "id": "05_review",
+      "name": "Review and revision",
+      "outputs": [
+        "review_packet",
+        "draft_v2",
+        "change_log"
+      ],
+      "exit_criteria": [
+        "Conflicts resolved",
+        "Claims approved"
+      ]
+    },
+    {
+      "id": "06_publish",
+      "name": "Publish and enablement",
+      "outputs": [
+        "final_battlecard",
+        "publish_metadata",
+        "enablement_notes"
+      ],
+      "exit_criteria": [
+        "Metadata complete",
+        "Version incremented",
+        "Review cadence set"
+      ]
+    }
+  ]
+}

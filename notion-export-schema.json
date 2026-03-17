@@ -1,0 +1,18 @@
+{
+  "notion_database": {
+    "name": "Battlecard Editorial Pipeline",
+    "properties": {
+      "Asset Name": "title",
+      "Stage": "select",
+      "Owner": "text",
+      "Primary Competitor": "text",
+      "Persona": "text",
+      "Status": "select",
+      "Version": "text",
+      "Last Updated": "date",
+      "Next Review Date": "date",
+      "Risk Level": "select",
+      "Open Questions": "multi_select"
+    }
+  }
+}

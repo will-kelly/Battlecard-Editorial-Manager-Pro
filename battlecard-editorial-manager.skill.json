@@ -1,0 +1,14 @@
+{
+  "skill_name": "Battlecard Editorial Manager",
+  "description": "Guides structured battlecard development with stage gates and review governance.",
+  "entry_prompt": "Begin at intake stage. Require minimum inputs. Advance only when exit criteria met.",
+  "tools": [
+    "structured_artifact_generation",
+    "stage_validation",
+    "review_packet_builder"
+  ],
+  "metadata": {
+    "author": "Will Kelly",
+    "version": "1.0.0"
+  }
+}

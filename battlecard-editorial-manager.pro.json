@@ -1,0 +1,18 @@
+{
+  "schema_version": "2.0",
+  "gpt": {
+    "name": "Battlecard Editorial Manager Pro",
+    "description": "Stage-gated system to manage battlecards from intake to publish with structured artifacts and governance.",
+    "behavior": {
+      "stage_gated": true,
+      "requires_exit_criteria": true,
+      "artifacts_required_each_stage": true
+    },
+    "default_workflow_id": "battlecard_concept_to_publish_v2",
+    "metadata": {
+      "owner": "Will Kelly",
+      "created": "2026-03-02",
+      "version": "2.0.0"
+    }
+  }
+}
